@@ -1,0 +1,26 @@
+破解版本版本支持：
+Aspose.3D		16.12.0.0
+Aspose.BarCode		16.12.1.0
+Aspose.CAD		16.12.0.0
+Aspose.Cells		16.12.0.0
+Aspose.Diagram		16.12.0.0
+Aspose.Email		16.12.0.0
+Aspose.Imaging		16.10.0.0
+Aspose.Note		16.11.0.0
+Aspose.OCR		16.12.0.0
+Aspose.Pdf		12.0.0.0(最高到，再高不支持)
+Aspose.Slides		16.11.0.0
+Aspose.Tasks		16.11.0.0
+Aspose.Words		16.12.1.0
+
+破解使用说明
+1、将"Crack\ModifyInMemory.cs"复制到项目中
+2、根据需要自行修改类名、命名空间等
+3、项目--->属性--->生成将“允许不安全代码”勾选上，
+4、在项目启动时调用执行以下代码，如果修改了命名空间及类名自行修改
+	LicenseHelper.ModifyInMemory.ActivateMemoryPatching();
+
+
+备注：
+1、ModifyInMemory.cs必须排除混淆
+2、不支持Silverlight因为SL的mscorlib.dll并不包含所有所需的memorypatching方法/属性
