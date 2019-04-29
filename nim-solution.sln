@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NIM-Addin", "NIM-Addin\NIM-Addin.csproj", "{E5945A8B-C4DC-4EE4-8308-299042B22479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NIM.Utilty", "NIM.Utilty\NIM.Utilty.csproj", "{FFB175A9-9676-4EA3-9277-997D5197E0D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NIM.Tester", "NIM.Tester\NIM.Tester.csproj", "{A446311F-42D7-4B16-AC3C-8E199BEE6DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NIM.CertificationGenerator", "NIM.Excel2WordParser\NIM.CertificationGenerator.csproj", "{4875B9A6-4F6B-4BAC-B222-DD064EA14DFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{904142A4-3585-48FC-8ADE-8C11A755C6EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5945A8B-C4DC-4EE4-8308-299042B22479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5945A8B-C4DC-4EE4-8308-299042B22479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5945A8B-C4DC-4EE4-8308-299042B22479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5945A8B-C4DC-4EE4-8308-299042B22479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB175A9-9676-4EA3-9277-997D5197E0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB175A9-9676-4EA3-9277-997D5197E0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB175A9-9676-4EA3-9277-997D5197E0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB175A9-9676-4EA3-9277-997D5197E0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A446311F-42D7-4B16-AC3C-8E199BEE6DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A446311F-42D7-4B16-AC3C-8E199BEE6DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A446311F-42D7-4B16-AC3C-8E199BEE6DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A446311F-42D7-4B16-AC3C-8E199BEE6DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4875B9A6-4F6B-4BAC-B222-DD064EA14DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4875B9A6-4F6B-4BAC-B222-DD064EA14DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4875B9A6-4F6B-4BAC-B222-DD064EA14DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4875B9A6-4F6B-4BAC-B222-DD064EA14DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFB175A9-9676-4EA3-9277-997D5197E0D1} = {904142A4-3585-48FC-8ADE-8C11A755C6EB}
+		{A446311F-42D7-4B16-AC3C-8E199BEE6DAA} = {904142A4-3585-48FC-8ADE-8C11A755C6EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {F8A6B04E-DC4D-4460-94E1-C28CFED17A7C}
+	EndGlobalSection
+EndGlobal
